@@ -1,0 +1,25 @@
+header {
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    nav {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+
+        a {
+            text-decoration: none;
+            color: black;
+            margin-right: 2rem;
+            font-weight: bold;
+
+            &:hover {
+                color: rgb(50, 136, 122);
+                transition: 0.3s;
+            }
+        }
+
+    }
+
+}
